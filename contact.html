@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mascotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+     <nav id="navBar">
+    <a class="navLink" href="../index.html" >Inicio</a>
+    <a class="navLink" href="../aboutUs.html" >Acerca de nosotros</a>
+    <a class="navLink active" href="../contact.html" >Contacto</a>
+  </nav>
+
+  <script src="script.js"></script>
+
+    <!-- Contenido Principal -->
+    <main class="main-content">
+        <section class="contact-section">
+            <div class="container">
+                <h1>Contáctanos</h1>
+                <p class="subtitle">¿Tienes preguntas o sugerencias? ¡Nos encantaría escucharte!</p>
+                
+                <!-- Información de Contacto -->
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3>📧 Email</h3>
+                        <p>equipo6@404syndicate.com</p>
+                        <p>soporte6@404syndicate.com</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3>📞 Teléfono</h3>
+                        <p>+56 (9) 404-4046</p>
+                        <p>+1 (555) 666-4046</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3>📍 Dirección</h3>
+                        <p>404 Syndicate</p>
+                        <p>Santiago, Chile</p>
+                    </div>
+                </div>
+
+                <!-- Formulario de Contacto -->
+                <div class="contact-form-container">
+                    <h2>Envíanos un Mensaje</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nombre Completo *</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                required 
+                                placeholder="Tu nombre completo"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico *</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                required 
+                                placeholder="tu.email@ejemplo.com"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Asunto *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Selecciona un asunto</option>
+                                <option value="general">Consulta General</option>
+                                <option value="technical">Soporte Técnico</option>
+                                <option value="collaboration">Colaboración</option>
+                                <option value="other">Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensaje *</label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                rows="6" 
+                                required 
+                                placeholder="Escribe tu mensaje aquí..."
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Mascotify</h3>
+                    <p>La red social para amantes de mascotas. Comparte fotos, conecta con dueños de mascotas y descubre tips de cuidado animal</p>
+                </div>
+                
+                <div class="footer-section">
+                <h4>Síguenos</h4>
+                <p>📷Instagram: Mascotify</p>
+                <p>🐦X: Mascotify</p>
+                <p>📘Facebook: Mascotify</p>
+                  </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 404 Syndicate. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
